@@ -39,7 +39,7 @@ img{
   @media only screen and (max-width: 768px){
     body
     {
-      background: url(images/bg1.jpg) no-repeat center center fixed;
+      background: url(images/bg1.jpg);
 
     }
   }
