@@ -3,6 +3,7 @@
     background-size: cover;
   	color: white;
     font-family: "Lato", sans-serif;
+    background-repeat: no-repeat;
   } 
 .nav.navbar-nav.navbar-right li a {
     color: white;
