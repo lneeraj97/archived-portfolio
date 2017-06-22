@@ -3,8 +3,15 @@
     background-size: cover;
   	color: white;
     font-family: "Lato", sans-serif;
-    background-repeat: no-repeat;
   } 
+  div, body{
+  margin: 0;
+  padding: 0;
+}
+.container-fluid{
+  height: 100%; 
+  width: 100%; 
+}
 .nav.navbar-nav.navbar-right li a {
     color: white;
 }
