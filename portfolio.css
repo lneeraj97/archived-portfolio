@@ -2,7 +2,9 @@
     background: url(images/bg.jpg) no-repeat center center fixed; 
     background-size: cover;
   	color: white;
-    font-family: "Lato", sans-serif;
+  /*   font-family: 'Raleway', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif; */
+    font-family: 'Titillium Web', sans-serif;
   } 
   div, body{
   margin: 0;
@@ -12,7 +14,7 @@
   height: 100%; 
   width: 100%; 
 }
-.nav.navbar-nav.navbar-right li a {
+/* .nav.navbar-nav.navbar-right li a {
     color: white;
 }
 .nav.navbar-nav.navbar-right li a:visited {
@@ -26,7 +28,7 @@
 .nav.navbar-nav.navbar-right li a:active {
    background-color : transparent;
   color: black; 
-}
+} */
 a > .fa {
   padding-right: 10px;
   padding-left: 10px;
@@ -39,7 +41,6 @@ img{
   @media only screen and (max-width: 768px){
     body
     {
-      background: url(images/bg1.jpg) no-repeat center center fixed;
-
+      background: url(images/bg1.jpg);
     }
   }
