@@ -1,19 +1,35 @@
-	body{ 
-    background: url(images/bg.jpg) no-repeat center center fixed; 
+	.pg1,.navbar{ 
+    background: url(images/img3.jpg) no-repeat center center fixed; 
     background-size: cover;
   	color: white;
+    background-position: bottom;
     font-family: 'Josefin Sans', sans-serif;
-
-  } 
-  div, body{
+    padding-bottom: 2%;
+  }
+  .pg2{ 
+    background: url(images/img4.jpg) no-repeat center center fixed; 
+    background-size: cover;
+    color: white;
+    background-position: bottom;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-bottom: 5%;
+  }
+  .pg3{ 
+    background: url(images/img1.jpg) no-repeat center center fixed; 
+    background-size: cover;
+    color: white;
+    background-position: bottom;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 1.5%;
+      } 
+  div, body,.container,.container-fluid,.navbar{
   margin: 0;
-  padding: 0;
 }
-.container-fluid{
+.container-fluid,.container{
   height: 100%; 
   width: 100%; 
 }
-/* .nav.navbar-nav.navbar-right li a {
+.nav.navbar-nav.navbar-right li a {
     color: white;
 }
 .nav.navbar-nav.navbar-right li a:visited {
@@ -22,12 +38,12 @@
 }
 .nav.navbar-nav.navbar-right li a:hover {
    background-color : transparent;
-   color: #999999;
+   color: black;
 }
 .nav.navbar-nav.navbar-right li a:active {
    background-color : transparent;
   color: black; 
-} */
+}
 a > .fa {
   padding-right: 10px;
   padding-left: 10px;
@@ -35,11 +51,18 @@ a > .fa {
    color:white;
 }
 img{
-  margin-top: 10%;
+  margin-top: 7%;
 }
-  @media only screen and (max-width: 768px){
-    body
-    {
-      background: url(images/bg1.jpg);
-    }
+ .row{
+    margin: 0 0 0 0;
+  }
+  #aboutme{
+    margin: 2% 0 7% 0;
+  }
+  li{
+    padding-top: 10px;
+  }
+  .navbar .navbar-toggle .icon-bar {
+    background-color: white;
+    color: black;
   }
